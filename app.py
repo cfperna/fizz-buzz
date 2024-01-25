@@ -1,14 +1,16 @@
-
 # fin
 
-def fizz_buzz(input):
-    if input % 3 == 0 and input % 5 == 0:
+x = int(input("enter number : "))
+
+
+def fizz_buzz(x):
+    if x % 3 == 0 and x % 5 == 0:
         return 'fizz_Buzz'
-    if input % 3 == 0:
+    if x % 3 == 0:
         return 'Fizz'
-    if input % 5 == 0:
+    if x % 5 == 0:
         return 'bzz'
-    return input
+    return x
 
 
-print(fizz_buzz(15))
+print(fizz_buzz(x))
