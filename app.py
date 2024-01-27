@@ -1,6 +1,6 @@
 # fin
 
-x = int(input("enter number : "))
+# x = int(input("enter number : "))
 
 
 def fizz_buzz(x):
@@ -13,4 +13,5 @@ def fizz_buzz(x):
     return x
 
 
-print(fizz_buzz(x))
+print(fizz_buzz(15))
+
