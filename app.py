@@ -2,6 +2,8 @@
 
 # x = int(input("enter number : "))
 
+# adding some more comment
+
 
 def fizz_buzz(x):
     if x % 3 == 0 and x % 5 == 0:
@@ -14,4 +16,3 @@ def fizz_buzz(x):
 
 
 print(fizz_buzz(15))
-
